@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AlertCircle } from "lucide-react";
+import { AlertCircle, Loader2 } from "lucide-react";
 import { Layout } from "@/components/Layout";
 import { VideoSearch } from "@/components/VideoSearch";
 import { VideoPreview } from "@/components/VideoPreview";
@@ -61,6 +61,32 @@ export function App() {
             onRemove={removeEntry}
             onClear={clearHistory}
           />
+        )}
+
+        {infoLoading && (
+          <Card>
+            <CardContent className="p-6">
+              <div className="flex flex-col items-center gap-4">
+                <Loader2 className="h-8 w-8 animate-spin text-primary" />
+                <div className="space-y-2 text-center">
+                  <p className="font-medium">Buscando video...</p>
+                  <p className="text-sm text-muted-foreground">
+                    Isso pode levar alguns segundos
+                  </p>
+                </div>
+                <div className="w-full space-y-3 pt-2">
+                  <div className="flex gap-4">
+                    <div className="h-24 w-40 shrink-0 animate-pulse rounded-lg bg-muted" />
+                    <div className="flex-1 space-y-2">
+                      <div className="h-4 w-3/4 animate-pulse rounded bg-muted" />
+                      <div className="h-3 w-1/2 animate-pulse rounded bg-muted" />
+                      <div className="h-3 w-1/4 animate-pulse rounded bg-muted" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         )}
 
         {error && (
