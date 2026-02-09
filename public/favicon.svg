@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Body -->
+  <ellipse cx="16" cy="20" rx="10" ry="8" fill="#22c55e"/>
+  <!-- Belly -->
+  <ellipse cx="16" cy="21" rx="6.5" ry="4.5" fill="#86efac"/>
+  <!-- Left eye base -->
+  <circle cx="11" cy="13" r="4.5" fill="#22c55e"/>
+  <!-- Right eye base -->
+  <circle cx="21" cy="13" r="4.5" fill="#22c55e"/>
+  <!-- Left eye white -->
+  <circle cx="11" cy="12.5" r="3.2" fill="#fff"/>
+  <!-- Right eye white -->
+  <circle cx="21" cy="12.5" r="3.2" fill="#fff"/>
+  <!-- Left pupil -->
+  <circle cx="11.8" cy="12.2" r="1.6" fill="#1a1a2e"/>
+  <!-- Right pupil -->
+  <circle cx="21.8" cy="12.2" r="1.6" fill="#1a1a2e"/>
+  <!-- Left pupil shine -->
+  <circle cx="12.3" cy="11.7" r="0.6" fill="#fff"/>
+  <!-- Right pupil shine -->
+  <circle cx="22.3" cy="11.7" r="0.6" fill="#fff"/>
+  <!-- Mouth -->
+  <path d="M13 22 Q16 24 19 22" fill="none" stroke="#16a34a" stroke-width="0.8" stroke-linecap="round"/>
+</svg>

@@ -32,9 +32,10 @@ export function App() {
     <Layout>
       <div className="space-y-6">
         <div className="space-y-2 text-center">
-          <h1 className="text-3xl font-bold tracking-tight">Media Grabber</h1>
+          <img src="/icon.svg" alt="Grabber" className="mx-auto h-24 w-24" />
+          <h1 className="text-3xl font-bold tracking-tight">Grabber</h1>
           <p className="text-muted-foreground">
-            Download public videos from YouTube and Instagram
+            The little frog that catches your videos
           </p>
         </div>
 

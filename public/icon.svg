@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Body -->
+  <ellipse cx="256" cy="320" rx="160" ry="130" fill="#22c55e"/>
+  <!-- Body shadow -->
+  <ellipse cx="256" cy="350" rx="130" ry="90" fill="#16a34a"/>
+  <!-- Belly -->
+  <ellipse cx="256" cy="340" rx="100" ry="70" fill="#86efac"/>
+  <!-- Left eye base -->
+  <circle cx="180" cy="210" r="60" fill="#22c55e"/>
+  <!-- Right eye base -->
+  <circle cx="332" cy="210" r="60" fill="#22c55e"/>
+  <!-- Left eye white -->
+  <circle cx="180" cy="205" r="45" fill="#fff"/>
+  <!-- Right eye white -->
+  <circle cx="332" cy="205" r="45" fill="#fff"/>
+  <!-- Left pupil -->
+  <circle cx="190" cy="200" r="22" fill="#1a1a2e"/>
+  <!-- Right pupil -->
+  <circle cx="342" cy="200" r="22" fill="#1a1a2e"/>
+  <!-- Left pupil shine -->
+  <circle cx="198" cy="192" r="8" fill="#fff"/>
+  <!-- Right pupil shine -->
+  <circle cx="350" cy="192" r="8" fill="#fff"/>
+  <!-- Mouth (smile) -->
+  <path d="M200 340 Q256 380 312 340" fill="none" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
+  <!-- Tongue catching fly -->
+  <path d="M256 355 Q280 310 340 260 Q360 250 370 240" fill="none" stroke="#ef4444" stroke-width="8" stroke-linecap="round"/>
+  <!-- Tongue tip -->
+  <circle cx="370" cy="238" r="8" fill="#ef4444"/>
+  <!-- Fly body -->
+  <ellipse cx="395" cy="220" rx="12" ry="8" fill="#374151"/>
+  <!-- Fly wings -->
+  <ellipse cx="388" cy="208" rx="14" ry="6" fill="#9ca3af" opacity="0.7" transform="rotate(-30 388 208)"/>
+  <ellipse cx="402" cy="208" rx="14" ry="6" fill="#9ca3af" opacity="0.7" transform="rotate(30 402 208)"/>
+  <!-- Left front leg -->
+  <path d="M140 400 Q110 430 90 420 Q80 415 95 410 Q105 408 115 412" fill="#16a34a"/>
+  <!-- Right front leg -->
+  <path d="M372 400 Q402 430 422 420 Q432 415 417 410 Q407 408 397 412" fill="#16a34a"/>
+</svg>
