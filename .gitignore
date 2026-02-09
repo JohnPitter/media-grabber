@@ -1,0 +1,18 @@
+node_modules/
+dist/
+lib/
+.env
+.env.local
+.env.*.local
+*.log
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+coverage/
+.DS_Store
+Thumbs.db
+
+# Claude
+CLAUDE.md
+.claude/
